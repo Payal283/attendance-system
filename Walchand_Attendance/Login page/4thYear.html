@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Walchand - Login Page</title>
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/EUKXZaEBcVfm.css">
+    <link rel="stylesheet" type="text/css" href="css/LZJL2Tq6fUH8.css">
+    <link rel="stylesheet" type="text/css" href="css/gG7jrRylSJgd.css">
+    <link rel="stylesheet" type="text/css" href="css/BhF0gudLujYh.css">
+    <link rel="stylesheet" type="text/css" href="css/e9XK9Ln9pvI2.css">
+    <link rel="shortcut icon" href="EYEvxk5P3ktM.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        /* Styling the Body element i.e. Color,
+				Font, Alignment */
+        /* Styling the Form (Color, Padding, Shadow) */
+        
+        form {
+            background-color: #e9e2e3;
+            max-width: 600px;
+            margin: 150px auto;
+            width: 50%;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.568);
+        }
+        /* Styling form-control Class */
+        
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        /* Styling form-control Label */
+        
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        /* Styling form-control input,
+				select, textarea */
+        
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 6px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+        /* Styling form-control Radio
+				button and Checkbox */
+        
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        /* Styling Button */
+        
+        label {
+            font-weight: inherit;
+            font-family: ui-monospace;
+            font-size: larger;
+        }
+        /* text-size-adju/st: ; */
+    </style>
+</head>
+
+<body class="login mdc-typography">
+    <script type="text/javascript" src="js/WSwypyuFfal1.js"></script>
+    <script type="text/javascript" src="js/DrKPCW4qEpvj.js"></script>
+    <script type="text/javascript" src="js/og4t3AZE7pvU.js"></script>
+    <script type="text/javascript" src="js/5IJaycN4Gd5p.js"></script>
+    <script type="text/javascript" src="js/264iSiCpBn9W.js"></script>
+    <script type="text/javascript" src="js/H5Bk8h2qZwnz.js"></script>
+    <script>
+        if (typeof resourceLoadedSuccessfully === "function") {
+            resourceLoadedSuccessfully();
+        }
+        $(function() {
+            typeof cssVars === "function" && cssVars({
+                onlyLegacy: true
+            });
+        })
+    </script>
+    <header id="app-bar" class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-elevation--z4">
+        <nav class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <span class="cas-brand m-3">
+					<img class="cas-logo" alt="Harvard University logo with shield" title="Harvard University"
+						src="/Login page/images/wce_logo.png"></span>
+                <span class="strong">Walchand College Of Engineering</span>
+            </section>
+            <section class="mdc-top-app-bar__section">
+            </section>
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+                <div class="mdc-menu-surface--anchor">
+                    <button id="menuButton" class="mdc-icon-button mdc-top-app-bar__navigation-icon" aria-haspopup="true" aria-controls="navMenu" value="SIGN IN"> <span class="mdi mdi-account"></span> <span
+							class="sr-only">menu</span> </button>
+                    <div id="navMenu" class="mdc-menu mdc-menu-surface">
+                        <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                            <li>
+                                <a href="https://key.harvard.edu/manage-account/auto-choose" class="mdc-list-item" role="menuitem" tabindex="-1"> <span class="mdc-list-item__ripple"></span> <i class="mdi mdi-cog material-icons mdc-list-item__graphic" aria-hidden="true"></i>
+                                    <span class="mdc-list-item__text">Account Settings</span> </a>
+                            </li>
+                            <li>
+                                <a href="/cas/logout" class="mdc-list-item" role="menuitem" tabindex="-1"> <span class="mdc-list-item__ripple"></span> <i class="mdi mdi-logout material-icons mdc-list-item__graphic" aria-hidden="true"></i>
+                                    <span class="mdc-list-item__text">Logout</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </nav>
+
+    </header>
+
+
+    <!-- Create Form -->
+    <form id="form cas-field my-3  ">
+
+        <!-- dropdown -->
+        <div class="form-control">
+            <label>Semsester</label>
+            <select required>
+                <option disabled selected>Select Semsester</option>
+                <option>7th Semsester</option>
+                <option>8th Semsester</option>
+               
+            </select>
+        </div>
+
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+				Course Name
+			</label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="name">
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+				Code
+			</label>
+
+            <!-- Input Type Email-->
+            <input type="text" id="email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+				Credit
+			</label>
+
+            <!-- Input Type Text -->
+            <input type="number" id="age" />
+        </div>
+
+
+
+
+
+
+        </div>
+
+        <!-- Multi-line Text Input Control -->
+        <button class="mdc-button mdc-button--raised w-100" name="submit" accesskey="l" type="submit">
+			<span class="mdc-button__label">SIGN IN</span>
+		</button>
+    </form>
+
+    <footer class="py-4 d-flex justify-content-center cas-footer flex-column text-center">
+        <div>
+            <span>Copyright © <script>document.write( new Date().getFullYear() );</script> Walchand College Of Engineering</span> </div>
+
+    </footer>
+</body>
