@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    width: 275px;
+    height: 250px;
+    background-color: rgb(219, 198, 198);
+}
+
+.mp {
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+    text-size-adjust: 80px;
+}
